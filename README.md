@@ -1,32 +1,35 @@
-Business Recommendation System
+**Business Recommendation System**
 
-About:
+**Overview:**
 
-This Java application recommends similar businesses based on reviews using TF-IDF calculation. It parses JSON files containing business and review data, calculates review weights, and displays top recommendations to users via a Swing GUI.
+This Java application offers business recommendations by analyzing review data. It calculates review weights using the TF-IDF algorithm and presents top suggestions through a user-friendly GUI.
 
-Features:
+**Features:**
+- Recommends similar businesses based on reviews
+- Utilizes TF-IDF algorithm for similarity computation
+- Parses JSON files for business and review data
+- Provides recommendations through a Swing GUI interface
 
-Recommends similar businesses based on reviews
-Utilizes TF-IDF algorithm for similarity computation
-Parses JSON files containing business and review data
-Displays recommendations through a user-friendly GUI interface
-Usage:
+**Usage:**
 
-Run the program.
-Select a business from the provided list.
-Click on "Find Similar Businesses" to get recommendations.
-View recommended businesses in the result area.
-Files Included:
+1. Run the program.
+2. Select a business from the provided list.
+3. Click on "Find Similar Businesses" to get recommendations.
+4. View recommended businesses in the result area.
 
-BusinessRecommendationSystem.java: Main Java file containing the GUI application and recommendation logic.
-Business.java: Class representing a business entity with various attributes.
-Review.java: Class encapsulating review data and providing functionality for word frequency and presence.
-businessdata.json: JSON file containing business data.
-reviewdata.json: JSON file containing review data.
-Dependencies:
+**Included Files:**
 
-Gson library for JSON parsing.
-Swing for GUI components.
-Note:
+- `BusinessRecommendationSystem.java`: Main application file with GUI and logic.
+- `Business.java`: Class representing business entities.
+- `Review.java`: Class for review data encapsulation.
+- `businessdata.json`: JSON file with business data.
+- `reviewdata.json`: JSON file with review data.
 
-Ensure that the JSON files (businessdata.json and reviewdata.json) are present in the src/database/ directory before running the application.
+**Dependencies:**
+
+- Gson library for JSON parsing.
+- Swing for GUI components.
+
+**Note:**
+
+Ensure that the JSON files (`businessdata.json` and `reviewdata.json`) are present in the `src/database/` directory before running the application.
