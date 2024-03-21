@@ -32,4 +32,4 @@ This Java application offers business recommendations by analyzing review data. 
 
 **Note:**
 
-Ensure that the JSON files (`businessdata.json` and `reviewdata.json`) are present in the `src/database/` directory before running the application.
+Ensure that the business and review JSON files downloaded from the YELP dataset are renamed to (`businessdata.json` and `reviewdata.json`) and are present in the `src/database/` directory before running the application.
